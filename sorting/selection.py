@@ -1,5 +1,3 @@
-arr = [64, 25, 12, 22, 11]
-
 def selectionSort(collection):
     n = len(collection)
     for i in range(n - 1):
@@ -11,6 +9,8 @@ def selectionSort(collection):
 
     return collection
 
+
+arr = [64, 25, 12, 22, 11]
 newArr = selectionSort(arr[:])
 
 print(f"Unsorted arr: {arr}")
